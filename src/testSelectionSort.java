@@ -24,7 +24,7 @@ public class testSelectionSort {
     @Test
     public void testMixed(){
         int[] arr = new int[]{-8,-9,7,-10,2,0};
-        int[] res = new int[]{-10,-9,-8,0,2,7};
+        int[] res = new int[]{-11,-10,-9,0,2,7};
         FinalSort.sort(arr);
         assert(Arrays.equals(arr,res));
     }
